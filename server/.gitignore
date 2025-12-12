@@ -1,0 +1,65 @@
+# ------------------------------------
+# Node / npm / pnpm / yarn
+# ------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# ------------------------------------
+# Env & secrets
+# ------------------------------------
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ------------------------------------
+# Build / output / cache
+# ------------------------------------
+dist/
+build/
+.tmp/
+.temp/
+.cache/
+coverage/
+.nyc_output/
+
+# ------------------------------------
+# Logs
+# ------------------------------------
+logs/
+*.log
+*.log.*
+logs-*.txt
+
+# ------------------------------------
+# Uploads (runtime files, not source)
+# ------------------------------------
+uploads/
+!uploads/.gitkeep
+
+# ------------------------------------
+# OS / editor junk
+# ------------------------------------
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ------------------------------------
+# Misc
+# ------------------------------------
+*.pid
+*.seed
+*.tgz
+.sass-cache/
