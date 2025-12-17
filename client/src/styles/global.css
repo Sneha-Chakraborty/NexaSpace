@@ -1,0 +1,20 @@
+/* Import Tailwind v4 */
+@import "tailwindcss";
+
+/* NexaSpace theme tokens */
+@theme {
+  --color-nexablack: #050509;
+  --color-nexablue: #4a8dff;
+}
+
+/* Global base styles */
+body {
+  background-color: var(--color-nexablack);
+  color: white;
+  font-family: system-ui, sans-serif;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
